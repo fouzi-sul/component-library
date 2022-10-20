@@ -4,7 +4,8 @@ body{
 }
 :root{
     --primary-color:#7c3aed;
-    --gray-color:#6b7280;
+    --dark-gray:#6b7280;
+    --off-white:#F3F4F6;
 }
 .container{
     padding: 0rem 1rem;
@@ -66,8 +67,17 @@ hr{
 }
 .hero .hero-heading{
     padding-top: 1rem;
-    color: var(--gray-color);
+    color: var(--dark-gray);
 }
 .hero .hero-heading .heading-inverted{
 color: var(--primary-color);
+}
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+}
+.ow{
+    background-color: var(--off-white);
 }
